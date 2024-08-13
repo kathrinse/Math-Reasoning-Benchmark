@@ -1,0 +1,26 @@
+[general]
+exp_name: multiarith_cot-zero_llama-3-70_full
+
+# Dataset parameters
+[dataset]
+name: multiarith
+indicies: [0,1,2]
+
+# Method parameters
+[method]
+name: ZeroShotCoT
+n_runs: 1
+max_new_tokens: 256
+
+# Model parameters
+[model]
+name: llama-3-70B
+use_gpu: True
+gpu_ids: [0,2]
+max_new_tokens: 256
+
+# Metric parameters
+[metric]
+name: pass@k
+n: 10
+k: 3

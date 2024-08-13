@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Tina makes $18.00 an hour.  If she works more than 8 hours per shift, she is eligible for overtime, which is paid by your hourly wage + 1/2 your hourly wage.  If she works 10 hours every day for 5 days, how much money does she make?",
+        "rationale": " She works 8 hours a day for $18 per hour so she makes 8*18 = $<<8*18=144.00>>144.00 per 8-hour shift\n She works 10 hours a day and anything over 8 hours is eligible for overtime, so she gets 10-8 = <<10-8=2>>2 hours of overtime\n Overtime is calculated as time and a half so and she makes $18/hour so her overtime pay is 18*.5 = $<<18*.5=9.00>>9.00\n Her overtime pay is 18+9 = $<<18+9=27.00>>27.00\n Her base pay is $144.00 per 8-hour shift and she works 5 days and makes 5 * $144 = $<<144*5=720.00>>720.00\n Her overtime pay is $27.00 per hour and she works 2 hours of overtime per day and makes 27*2 = $<<27*2=54.00>>54.00 in overtime pay\n 2 hours of overtime pay for 5 days means she makes 54*5 = $270.00\n In 5 days her base pay is $720.00 and she makes $270.00 in overtime pay so she makes $720 + $270 = $<<720+270=990.00>>990.00\nFinal answer: 990",
+        "answer": "990"
+    },
+    {
+        "question": "Mrs. Snyder used to spend 40% of her monthly income on rent and utilities. Her salary was recently increased by $600 so now her rent and utilities only amount to 25% of her monthly income. How much was her previous monthly income?",
+        "rationale": " Let her previous monthly income be p\n The cost of her rent and utilities was 40% of p which is (40/100)*p = 2p/5\n Her income was increased by $600 so it is now p+$600\n The cost of her rent and utilities now amount to 25% of (p+$600) which is (25/100)*(p+$600) = (p+$600)/4\n Equating both expressions for cost of rent and utilities: 2p/5 = (p+$600)/4\n Multiplying both sides of the equation by 20 gives 8p = 5p+$3000\n Subtracting 5p from both sides gives: 3p = $3000\n Dividing both sides by 3 gives p = $1000\nFinal answer: 1000",
+        "answer": "1000"
+    },
+    {
+        "question": "Jesse and Mia are competing in a week long race. They have one week to run 30 miles. On the first three days Jesse averages (2/3) of a mile. On day four she runs 10 miles. Mia averages 3 miles a day over the first 4 days. What is the average of their average that they have to run over the final three days?",
+        "rationale": " Jesse runs 2 miles in the first three days because 3 x (2/3) = <<3*(2/3)=2>>2\n Jesse has 18 miles left to run because 30 - 10 - 2 = <<30-10-2=18>>18\n Jesse has to run an average of 6 miles a day because 18 / 3 = <<18/3=6>>6\n Mia runs 12 miles over the first four days because 4 x 3 = <<4*3=12>>12\n She has 18 miles left to run because 30 - 12 = <<30-12=18>>18\n She has to run six miles a day because 18 / 3 = <<18/3=6>>6\n The total they both have to run is <<12=12>>12 miles a day\n The average they have to run per day on average is 6 miles because 12 / 2 = <<12/2=6>>6\nFinal answer: 6",
+        "answer": "6"
+    },
+    {
+        "question": "Janice can type 6 sentences per minute. Today at work, Janice continued working on a paper she started typing yesterday. She typed for 20 minutes, took a break, and typed 15 minutes longer. She then had to erase 40 sentences she had typed incorrectly. After a meeting, she typed for 18 minutes more. In all, the paper had 536 sentences by the end of today. How many sentences did she start with today?",
+        "rationale": " Janice had X sentences from yesterday already typed to start with today.\n Janice typed 6 * 20 = <<6*20=120>>120 sentences before her break.\n She typed 6 * 15 = <<6*15=90>>90 sentences after her break.\n She typed 6 * 18 = <<6*18=108>>108 sentences after her meeting.\n Therefore, she typed 120 + 90 + 108 = <<120+90+108=318>>318 sentences today in all.\n She had to erase 40 sentences, so she had 318 - 40 = <<318-40=278>>278 sentences that she typed today left.\n The paper had X + 278 = 536 sentences at the end of today.\n Thus, she had X = 536 - 278 = <<536-278=258>>258 sentences typed on the paper to start with today.\nFinal answer: 258",
+        "answer": "258"
+    },
+    {
+        "question": "Lisa and Carly go shopping together. Lisa spends $40 on t-shirts then spends half of this amount on jeans and twice this amount on coats. Carly spends only a quarter as much as Lisa on t-shirts but spends 3 times as much on jeans and a quarter of the amount Lisa spent on coats. In dollars, how much did Lisa and Carly spend in total?",
+        "rationale": " Lisa spends $40 on t-shirts / 2 = $<<40/2=20>>20 on jeans.\n She also spends $40 on t-shirts * 2 = $<<40*2=80>>80 on coats.\n So Lisa has spent a total of 40 + 20 + 80 = $<<40+20+80=140>>140.\n Carly spends $40 / 4 = $<<40/4=10>>10 on t-shirts.\n She also spends $20 per pair of jeans * 3 = $<<20*3=60>>60 on jeans.\n She then also spends $80 Lisa’s cost for coats / 4 = $<<80/4=20>>20 on coats.\n So Carly has spent a total of 10 + 60 + 20 = $<<10+60+20=90>>90.\n Lisa and Carly have therefore spent a total of 140 + 90 = $<<140+90=230>>230.\nFinal answer: 230",
+        "answer": "230"
+    },
+    {
+        "question": "Jim collects model cars, and he has 301 models total.  Jim has 4 times as many Buicks as Fords, and 3 more than twice the number of Fords than Chevys.  How many Buicks does Jim have?",
+        "rationale": " Let x represent the number of Chevys\n Fords:3+2x\n Buicks:4(3+2x)=12+8x\n Total:x+3+2x+12+8x=301\n 11x+15=301\n 11x=286\n x=<<26=26>>26\n Buicks:12+8(26)=220\nFinal answer: 220",
+        "answer": "220"
+    },
+    {
+        "question": "Janet hires six employees. Four of them are warehouse workers who make $15/hour, and the other two are managers who make $20/hour. Janet has to pay 10% of her workers' salaries in FICA taxes. If everyone works 25 days a month and 8 hours a day, how much does Janet owe total for their wages and taxes for one month?",
+        "rationale": " First figure out how many hours each worker works per month by multiplying the number of days they work by the number of hours a day they work: 25 days * 8 hours/day = <<25*8=200>>200 hours\n Then calculate how much one warehouse worker makes per month by multiplying their hourly rate by the number of hours they work: 200 hours * $15/hour = $<<200*15=3000>>3000\n Then multiply that number by 4 to find out how much all the warehouse workers make: $3000/worker * 4 workers = $<<3000*4=12000>>12,000\n Now multiply the hours each manager works (also 200) by their hourly wage to find out how much one manager makes per month: 200 hours * $20/hour = $<<200*20=4000>>4,000\n Now multiply one manager's wages by the number of managers (2) to find their total wage amount: $4,000/manager * 2 managers = $<<4000*2=8000>>8,000\n Now add the wages for the managers and the workers to find the total cost of the wages: $8,000 + $12,000 = $<<8000+12000=20000>>20,000\n Now multiply the total wage bill by 10% to find how much the FICA taxes are: $20,000 * .1 = $<<20000*.1=2000>>2,000\n Now add the total wage bill to the total tax amount to find the grand total: $2,000 + $20,000 = $<<2000+20000=22000>>22,000\nFinal answer: 22000",
+        "answer": "22000"
+    },
+    {
+        "question": "A hay farmer harvested 560 bales of hay from 5 acres of grass per month last year. This year, he planted an additional 7 acres of grass. If the farmer also owns 9 horses and each horse consumes 3 bales of hay a day, how many bales of hay would the farmer have left by the end of December if he starts feeding them this year's hay beginning the first day of September?",
+        "rationale": " For every acre of grass, the farmer can harvest 560/5 = <<560/5=112>>112 bales of hay each month.\n This year, the farmer has 7 + 5 = <<7+5=12>>12 acres of grass.\n He can expect to harvest 12 x 112 = <<12*112=1344>>1344 bales of hay per month.\n The total hay production this year is 1344*12 = <<1344*12=16128>>16128\n From September to December, the farmer would have to feed his horses for a total of 30 + 31 + 30 + 31 = <<30+31+30+31=122>>122 days\n Each day his horse eats a total of 3*9 = <<3*9=27>>27 bales of hay.\n For the 122 days, the horses will eat a total of 27*122 = <<27*122=3294>>3294 bales.\n The total number of bales remaining will be 16128-3294 = <<16128-3294=12834>>12834.\nFinal answer: 12834",
+        "answer": "12834"
+    }
+]

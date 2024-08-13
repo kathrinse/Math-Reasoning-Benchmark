@@ -1,0 +1,22 @@
+[
+    {
+        "question": "The train 160 m long is running with a speed of 80 km/hr. In what time will it pass a man running in same direction with the speed of 8 km/hr.A)16 seconds\nB)8 seconds\nC)15 seconds\nD)6 seconds\nE)28 seconds",
+        "rationale": "Man and train are running in same direction, Relative Speed = 80 - 8 = 72 kmph. = (72 * 5)/18 = 20 m/sec Length of the train = 160 m. Time taken to pass the man = 160/20 = 8 seconds. Answer: Option B",
+        "answer": "B"
+    },
+    {
+        "question": "1, 9, 25, 49, 81, ?A)100\nB)121\nC)144\nD)169\nE)171",
+        "rationale": "The series consists of squares of consecutive prime numbers. Answer : B.",
+        "answer": "B"
+    },
+    {
+        "question": "A shopkeeper expects a gain of 22.5% on his cost price. If in a week, his sale was of Rs. 490, what was his profit?A)s. 64\nB)s. 69\nC)s.72\nD)s.75\nE)s.90",
+        "rationale": "C.P. = Rs. (100/122.5)x490 = Rs. (1000/1225)x490 = Rs. 400 Profit = Rs. (490 - 400) = Rs. 90. Answer:E",
+        "answer": "E"
+    },
+    {
+        "question": "Students in Class I and II of a school are in the ratio of 3 : 5. Had 15 students leave the school from each class, the ratio would have become 1 : 2. How many total students were there in the beginning?A)120\nB)64\nC)96\nD)80\nE)None",
+        "rationale": "class 1 have 3x student and class 2 have 5x student. 3x-15/5x-15=1/2,6x-30=5x-15,x=15 45+75=120 student answer A",
+        "answer": "A"
+    }
+]

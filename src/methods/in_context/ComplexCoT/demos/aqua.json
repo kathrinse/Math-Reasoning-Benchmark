@@ -1,0 +1,22 @@
+[
+    {
+        "question": "The speed at which a man can row a boat in still water is 25 kmph. If he rows downstream, where the speed of current is 11 kmph, what time will he take to cover 80 metres?A)18 seconds\nB)27 seconds\nC)26 seconds\nD)12 seconds\nE)8 seconds",
+        "rationale": "Speed of the boat downstream = 25 +11\n= 36 kmph\n= 36 * 5/18 = 10 m/s\nHence time taken to cover 80 m = 80/10\n= 8 seconds.\nAnswer:E",
+        "answer": "E"
+    },
+    {
+        "question": "The entrance fee for a fair is $5 for persons under the age of 18, and 20% more for persons older. Each ride at the fair costs $0.50. If Joe goes with her 6 years old twin brothers, and they each took 3 rides in total. How much money does Joe end up spending at the fair?A)16\nB)20.5\nC)17.5\nD)20\nE)4.5",
+        "rationale": "Total entrance fee is (2*$5) + (1.20*5)= $16\nTotal rides fee is (0.50*3)*3= $4.50\nTotal money spent is $20.50\nAnswer is B",
+        "answer": "B"
+    },
+    {
+        "question": "A survey reveals that the average income of a company’s customers is $45,000 per year. If 50 customers respond to the survey and the average income of the wealthiest 10 of those customers is $95,000, what is the average income of the other 40 customers?\nIs there a way to solve this using weighted average concept instead of doing tedious calculations?A) $32,500\nB) $35,000\nC) $37,500\nD) $42,500\nE) $50,000",
+        "rationale": "let x be the average of 40 customers\n40*x + 10* 95000 = 50*45000\nsolving this we have x= 32500\nAnswer is A.",
+        "answer": "A"
+    },
+    {
+        "question": "A $500 investment and a $1,500 investment have a combined yearly return of 19 percent of the total of the two investments. If the $500 investment has a yearly return of 7 percent, what percent yearly return does the $1,500 investment have?A)9%\nB)10%\nC)23%\nD)21%\nE)22%",
+        "rationale": "The equation we can form the question :\nReturn on Total Investment = Sum of individual Investments\n(500+1500)(19)=(500âˆ—7)+(1500x), where x is the return on investment of 1500.\nSolving the equation, we get x = 23% ( Option C )\tANSWER:C",
+        "answer": "C"
+    }
+]

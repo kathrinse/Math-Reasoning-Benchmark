@@ -1,0 +1,26 @@
+[general]
+exp_name: gsm8k_cot-sc_llama-3-70_full
+
+# Dataset parameters
+[dataset]
+name: gsm8k
+indicies: None
+
+# Method parameters
+[method]
+name: SelfConsistencyCoT
+n_runs: 10
+
+# Model parameters
+[model]
+name: llama-3-70B
+gpu_ids: [0,2]
+temperature: 0.5
+top-k: 40
+max_new_tokens: 256
+
+# Metric parameters
+[metric]
+name: pass@k
+n: 5
+k: 3

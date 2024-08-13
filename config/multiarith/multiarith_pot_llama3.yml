@@ -1,0 +1,27 @@
+[general]
+exp_name: multiarith_pot_llama-3_full
+
+# Dataset parameters
+[dataset]
+name: multiarith
+indicies: [0,1,2]
+
+# Method parameters
+[method]
+name: PoT
+n_runs: 1
+max_new_tokens: 256
+prompting: zs
+
+# Model parameters
+[model]
+name: llama-3-8B
+use_gpu: True
+gpu_ids: [0]
+max_new_tokens: 200
+
+# Metric parameters # k=1 because it is greedy!!
+[metric]
+name: pass@k
+n: 1
+k: 1

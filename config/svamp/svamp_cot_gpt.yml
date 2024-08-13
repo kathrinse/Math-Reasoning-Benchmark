@@ -1,0 +1,24 @@
+[general]
+exp_name: svamp_cot_gpt4_full
+
+# Dataset parameters
+[dataset]
+name: svamp
+indicies: [0,1,2]
+
+# Method parameters
+[method]
+name: CoT
+n_runs: 1
+max_new_tokens: 256
+
+# Model parameters
+[model]
+name: gpt-4o-2024-05-13
+use_gpu: False
+
+# Metric parameters
+[metric]
+name: pass@k
+k: 3
+n: 10

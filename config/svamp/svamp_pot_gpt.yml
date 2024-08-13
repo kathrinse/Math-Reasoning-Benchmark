@@ -1,0 +1,24 @@
+[general]
+exp_name: svamp_pot_gpt_full
+
+# Dataset parameters
+[dataset]
+name: svamp
+indicies: None
+
+# Method parameters
+[method]
+name: PoT
+n_runs: 1
+max_new_tokens: 256
+
+# Model parameters
+[model]
+name: gpt-4o-2024-05-13
+use_gpu: False
+
+# Metric parameters # k=1 because it is greedy!!
+[metric]
+name: pass@k
+n: 1
+k: 1

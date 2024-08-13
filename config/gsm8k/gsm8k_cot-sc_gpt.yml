@@ -1,0 +1,24 @@
+[general]
+exp_name: gsm8k_cot-sc_gpt_full_new
+
+# Dataset parameters
+[dataset]
+name: gsm8k
+indicies: None
+
+# Method parameters
+[method]
+name: SelfConsistencyCoT
+n_runs: 10
+max_new_tokens: 256
+
+# Model parameters
+[model]
+name: gpt-3.5-turbo-0125
+temperature: 0.7
+
+# Metric parameters
+[metric]
+name: pass@k
+n: 10
+k: 3

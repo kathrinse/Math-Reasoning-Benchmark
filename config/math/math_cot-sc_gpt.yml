@@ -1,0 +1,26 @@
+[general]
+exp_name: math_cot-sc_gpt4_full
+
+# Dataset parameters
+[dataset]
+name: math
+indicies: [0]
+
+# Method parameters
+[method]
+name: SelfConsistencyCoT
+n_runs: 10
+max_new_tokens: 180
+strategy: first
+shots: 8
+
+# Model parameters
+[model]
+name: gpt-4o-2024-05-13
+use_gpu: False
+
+# Metric parameters
+[metric]
+name: pass@k
+n: 5
+k: 3

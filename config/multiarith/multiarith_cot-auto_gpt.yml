@@ -1,0 +1,24 @@
+[general]
+exp_name: multiarith_cot-auto_gpt4_full
+
+# Dataset parameters
+[dataset]
+name: multiarith
+indicies: [0,1,2]
+
+# Method parameters
+[method]
+name: AutoCoT
+n_runs: 1
+max_new_tokens: 200
+
+# Model parameters
+[model]
+name: gpt-4o-2024-05-13
+use_gpu: False
+
+# Metric parameters
+[metric]
+name: pass@k
+n: 5
+k: 3

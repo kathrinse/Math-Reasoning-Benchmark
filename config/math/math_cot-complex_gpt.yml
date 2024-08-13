@@ -1,0 +1,25 @@
+[general]
+exp_name: math_cot-complex_gpt4_full
+
+# Dataset parameters
+[dataset]
+name: math
+indicies: [0]
+
+# Method parameters
+[method]
+name: ComplexCoT
+n_runs: 5
+best_of: 3
+max_new_tokens: 180
+
+# Model parameters
+[model]
+name: gpt-4o-2024-05-13
+use_gpu: False
+
+# Metric parameters
+[metric]
+name: pass@k
+n: 5
+k: 3

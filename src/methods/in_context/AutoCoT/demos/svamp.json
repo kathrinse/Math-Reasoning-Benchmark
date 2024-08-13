@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Baker made 61 pastries and 167 cakes. If he sold 108 cakes and 44 pastries How many cakes would baker still have?",
+        "rationale": "The baker has 167 in the beginning. If he sells 108, he has 167 - 108 = 59 left. The answer is 59.",
+        "answer": 59.0
+    },
+    {
+        "question": "Julia played tag with some kids on monday. She played tag with 14 kids on tuesday. If she played with a total of 16 kids, How many kids did she play with on monday?",
+        "rationale": "She played with 16 kids in total, with 14 on Tuesday. Therefore, on Monday she played with 16 - 14 = 2 kids. The answer is 2.",
+        "answer": 2.0
+    },
+    {
+        "question": "Paul had 108 books. After selling some books in a garage sale and giving 35 books to his friend he had 62 books left. How many books did he sell in the garage sale?",
+        "rationale": "Paul had 108 books in the beginning. He gave 35 away and has 62 left. Therefore, he sold 108 - 35 - 62 = 11 in the garagae. The answer is 11.",
+        "answer": 11.0
+    },
+    {
+        "question": "Tiffany was collecting cans for recycling. On monday she had 8 bags of cans. The next day she found 7 more bags worth of cans. How many more bags did she have on monday more than she found on the next day?",
+        "rationale": "One the first day she found 8, on the second 7. Therefore, she found 8 - 7 = 1 bags more on Monday. The answer is 1.",
+        "answer": 1.0
+    },
+    {
+        "question": "Jake has 84 more apples and 10 fewer peaches than Steven. Steven has 13 peaches and 52 apples. How many peaches does Jake have?",
+        "rationale": "Steven has 13 peaches. Since Jake has 10 fewer then Steven, he hast 13 - 10 = 3 peaches. The answer is 3.",
+        "answer": 3.0
+    },
+    {
+        "question": "5 storks and 3 birds were sitting on the fence. 4 more birds came to join them. How many more birds than storks are sitting on the fence?",
+        "rationale": "On the fence are siting 3 + 4 = 7 birds. Therefore, there are 7 - 5 = 2 birds more then strokes. The answer is 2.",
+        "answer": 2.0
+    },
+    {
+        "question": "Bobby had 21 pieces of candy. He ate 5 pieces of candy. Then he ate 9 more. How many pieces of candy does he still have left?",
+        "rationale": "If Bobby ate 5 + 9 = 14 pieces of candy, he has 21 - 14 = 7 pieces left. The answer is 7.",
+        "answer": 7.0
+    },
+    {
+        "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 21 inches. The grasshopper jumped 25 inches farther than the frog and the mouse jumped 16 inches lesser than the frog. How much farther did the grasshopper jump than the mouse?",
+        "rationale": "The grasshopper jumped 25 inches farther then the frog. The frog jumped 16 inches farther then the mouse. Therefore, the grasshopper jumped 25 + 16 = 41 inches farther then the mouse. The answer is 41.",
+        "answer": 41.0
+    }
+]

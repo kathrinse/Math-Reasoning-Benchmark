@@ -1,0 +1,24 @@
+[general]
+exp_name: math_cot-auto_gpt4_full
+
+# Dataset parameters
+[dataset]
+name: math
+indicies: [0]
+
+# Method parameters
+[method]
+name: AutoCoT
+n_runs: 1
+max_new_tokens: 200
+
+# Model parameters
+[model]
+name: gpt-4o-2024-05-13
+use_gpu: False
+
+# Metric parameters
+[metric]
+name: pass@k
+k: 3
+n: 5

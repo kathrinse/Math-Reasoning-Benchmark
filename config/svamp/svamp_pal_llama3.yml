@@ -1,0 +1,26 @@
+[general]
+exp_name: svamp_pal_llama-3-70_full
+
+# Dataset parameters
+[dataset]
+name: svamp
+indicies: None
+
+# Method parameters
+[method]
+name: PAL
+n_runs: 1
+max_new_tokens: 200
+
+# Model parameters
+[model]
+name: llama-3-70B
+use_gpu: True
+gpu_ids: [0,1]
+max_new_tokens: 200
+
+# Metric parameters
+[metric]
+name: pass@k
+n: 10
+k: 3

@@ -1,0 +1,27 @@
+[general]
+exp_name: gsm8k_cot-complex_llama-3_full
+
+# Dataset parameters
+[dataset]
+name: gsm8k
+indicies: None
+
+# Method parameters
+[method]
+name: ComplexCoT
+n_runs: 5
+best_of: 3
+max_new_tokens: 180
+
+# Model parameters
+[model]
+name: llama-3-8B
+use_gpu: True
+gpu_ids: [1]
+max_new_tokens: 180
+
+# Metric parameters
+[metric]
+name: pass@k
+n: 5
+k: 3

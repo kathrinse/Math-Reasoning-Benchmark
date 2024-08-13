@@ -1,0 +1,42 @@
+[
+    {
+        "question": "A triangle has side lengths of 8, 15 and 17 units. What is the area of the triangle, in square units?",
+        "rationale": "We see that $8^2+15^2=64+225=289=17^2$.  So the triangle is a right triangle with legs $8$ and $15$, and thus its area is\n\n$$\\frac{8(15)}{2}=\\boxed{60}$$. Final answer: 60",
+        "answer": "60"
+    },
+    {
+        "question": "A line is parameterized by\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix} + t \\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix}.\\]A second line is parameterized by\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ -9 \\end{pmatrix} + u \\begin{pmatrix} 4 \\\\ 2 \\end{pmatrix}.\\]Find the point where the lines intersect.",
+        "rationale": "For the first line,\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix} + t \\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix} = \\begin{pmatrix} 1 + 2t \\\\ 1 - 3t \\end{pmatrix}.\\]For the second line,\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ -9 \\end{pmatrix} + u \\begin{pmatrix} 4 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} 5 + 4u \\\\ -9 + 2u \\end{pmatrix}.\\]Hence, $1 + 2t = 5 + 4u$ and $1 - 3t = -9 + 2u.$  Solving, we find $t = 3$ and $u = \\frac{1}{2},$ so\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\boxed{\\begin{pmatrix} 7 \\\\ -8 \\end{pmatrix}}.\\]. Final answer: \\begin{pmatrix} 7 \\\\ -8 \\end{pmatrix}",
+        "answer": "\\begin{pmatrix} 7 \\\\ -8 \\end{pmatrix}"
+    },
+    {
+        "question": "If $f(x) = 8x^3 - 6x^2 - 4x + 5$, find the value of $f( -2)$.",
+        "rationale": "We have  \\begin{align*}f(-2) &= 8(-2)^3 - 6(-2)^2 -4(-2) + 5\\\\\n& = 8(-8) -6(4) +8 + 5 = -64 -24 +8+5 = \\boxed{-75}.\\end{align*}. Final answer: -75",
+        "answer": "-75"
+    },
+    {
+        "question": "What two-digit positive integer is one more than a multiple of 2, 3, 4, 5 and 6?",
+        "rationale": "The least common multiple of these integers is $4\\cdot3\\cdot5=60$. Thus, a positive integer that is one more than a multiple of all the given integers is $60+1=\\boxed{61}$. Final answer: 61",
+        "answer": "61"
+    },
+    {
+        "question": "Find one third of 5.4, expressed as a simplified fraction.",
+        "rationale": "First, we take $5.4 \\div 3 = 1.8$.  Then, we convert 1.8 to a fraction.  Since $1.8 = \\frac{18}{10}$, we can simplify this fraction to yield $\\boxed{\\frac{9}{5}}$. Final answer: \\frac{9}{5}",
+        "answer": "\\frac{9}{5}"
+    },
+    {
+        "question": "In the diagram below, $BC$ is 8 cm.  In square centimeters, what is the area of triangle $ABC$?\n\n[asy]\ndefaultpen(linewidth(0.7));\ndraw((0,0)--(16,0)--(23,20)--cycle);\ndraw((16,0)--(23,0)--(23,20),dashed);\nlabel(\"8 cm\",(8,0),S);\nlabel(\"10 cm\",(23,10),E);\nlabel(\"$A$\",(23,20),N);\nlabel(\"$B$\",(0,0),SW);\nlabel(\"$C$\",(16,0),SE);\n[/asy]",
+        "rationale": "The area of a triangle is $\\frac{1}{2}(\\text{base})(\\text{height})$, so the area of triangle $ABC$ is $\\frac{1}{2}(8\\text{ cm})(\\text{10 cm})=\\boxed{40}$ square centimeters. Final answer: 40",
+        "answer": "40"
+    },
+    {
+        "question": "A teacher finds that when she offers candy to her class of 30 students, the mean number of pieces taken by each student is 5. If every student takes some candy, what is the greatest number of pieces one student could have taken?",
+        "rationale": "Since there are 30 students and a mean of 5 candies per student, there are a total of $5 \\cdot 30 = 150$ pieces of candy. Since every student must take at least one piece of candy, the first 29 students must take a total of at least 29 pieces. Since $150 - 29 = 121$, the greatest number of pieces one student can take is $\\boxed{121}$. Final answer: 121",
+        "answer": "121"
+    },
+    {
+        "question": "Find the only real number that can be expressed in the form \\[(a + bi)^3 - 107i,\\]where $i^2 = -1,$ and $a$ and $b$ are positive integers.",
+        "rationale": "We have \\[\\begin{aligned} (a+bi)^3 - 107i &= (a^3 + 3a^2bi - 3ab^2 - b^3i) - 107i \\\\ &=(a^3 - 3ab^2) + (3a^2b-b^3-107)i. \\end{aligned}\\]If this is a real number, then we must have \\[0 = 3a^2b-b^3-107\\]or \\[107 = b(3a^2-b^2).\\]Since $107$ is prime, either $b=1$ or $b=107.$ If $b=1,$ then we have $107 = 3a^2-1,$ so $a^2 = 36$ and $a=6.$ If $b = 107,$ then we have $1 = 3a^2 - 107^2,$ so $a^2 = \\frac{1 + 107^2}{3}.$ But $107^2 \\equiv 2^2 \\equiv 1 \\pmod{3},$ so the right-hand side is not an integer. Thus, $(a, b) = (6, 1)$ is the only possibility. Then the answer is \\[a^3 - 3ab^2 = 6^3-3 \\cdot 6 \\cdot 1^2 = \\boxed{198}.\\]. Final answer: 198",
+        "answer": "198"
+    }
+]

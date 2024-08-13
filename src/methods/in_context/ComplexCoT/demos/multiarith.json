@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Roger was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 10 trays from one table and 2 trays from another, how many trips will he make? ",
+        "rationale": "Roger would need to pick up 10 + 2 = 12 trays, therefore the has to make 12 / 4 = 3 trips. The answer is 3.",
+        "answer": "3"
+    },
+    {
+        "question": "Dave was helping the cafeteria workers pick up lunch trays, but he could only carry 9 trays at a time. If he had to pick up 17 trays from one table and 55 trays from another, how many trips will he make? ",
+        "rationale": "Dave would need to pick up 17 + 55 = 72 trays, therefore the has to make 72 / 9 = 8 trips. The answer is 8.",
+        "answer": "8"
+    },
+    {
+        "question": "Victor was helping the cafeteria workers pick up lunch trays, but he could only carry 7 trays at a time. If he had to pick up 23 trays from one table and 5 trays from another, how many trips will he make? ",
+        "rationale": "Victor would need to pick up 23 + 5 = 28 trays, therefore the has to make 28 / 7 = 4 trips. The answer is 4.",
+        "answer": "4"
+    },
+    {
+        "question": "A store had 40 coloring books in stock. They ended up putting them on sale and getting rid of 20 of them. The put the ones they still had onto shelves with 4 on each shelf. How many shelves did they use? ",
+        "rationale": "After the sale the shop has 40 - 20 = 20 books left. Therefore, they use 20 / 4 = 5 shelves. The answer is 5.",
+        "answer": "5"
+    },
+    {
+        "question": "A store had 48 coloring books in stock. They ended up putting them on sale and getting rid of 38 of them. The put the ones they still had onto shelves with 5 on each shelf. How many shelves did they use? ",
+        "rationale": "After the sale the shop has 48 - 38 = 10 books left. Therefore, they use 10 / 5 = 2 shelves. The answer is 2.",
+        "answer": "2"
+    },
+    {
+        "question": "A store had 27 coloring books in stock. They ended up putting them on sale and getting rid of 6 of them. The put the ones they still had onto shelves with 7 on each shelf. How many shelves did they use? ",
+        "rationale": "After the sale the shop has 27 - 6 = 21 books left. Therefore, they use 21 / 7 = 3 shelves. The answer is 3.",
+        "answer": "3"
+    },
+    {
+        "question": "Emily was playing a trivia game. In the first round she scored 16 points and in the second round she scored 33 points. In the last round she lost 48 points. How many points did she have at the end of the game? ",
+        "rationale": "Emily scored 16 + 33 = 49 points. Therefore, in the end she has 49 - 48 = 1 point left. The answer is 1.",
+        "answer": "1"
+    },
+    {
+        "question": "Chloe was playing a trivia game. In the first round she scored 40 points and in the second round she scored 50 points. In the last round she lost 4 points. How many points did she have at the end of the game? ",
+        "rationale": "Chloe scored 40 + 50 = 90 points. Therefore, in the end she has 90 - 4 = 86 points left. The answer is 86.",
+        "answer": "86"
+    }
+]

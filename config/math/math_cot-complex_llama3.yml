@@ -1,0 +1,27 @@
+[general]
+exp_name: math_cot-complex_llama-3-70_full
+
+# Dataset parameters
+[dataset]
+name: math
+indicies: [0]
+
+# Method parameters
+[method]
+name: ComplexCoT
+n_runs: 5
+best_of: 3
+max_new_tokens: 180
+
+# Model parameters
+[model]
+name: llama-3-70B
+use_gpu: True
+gpu_ids: [0,1]
+max_new_tokens: 180
+
+# Metric parameters
+[metric]
+name: pass@k
+n: 5
+k: 3

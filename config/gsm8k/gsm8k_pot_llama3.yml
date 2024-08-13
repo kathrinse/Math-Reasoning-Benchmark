@@ -1,0 +1,26 @@
+[general]
+exp_name: gsm8k_pot_llama-3-70_full
+
+# Dataset parameters
+[dataset]
+name: gsm8k
+indicies: None
+
+# Method parameters
+[method]
+name: PoT
+n_runs: 1
+max_new_tokens: 256
+
+# Model parameters
+[model]
+name: llama-3-70B
+use_gpu: True
+gpu_ids: [0,2]
+max_new_tokens: 128
+
+# Metric parameters # k=1 because it is greedy!!
+[metric]
+name: pass@k
+n: 1
+k: 1

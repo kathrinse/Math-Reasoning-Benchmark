@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Jerry had 7 books and 3 action figures on a shelf in his room. Later he added 2 more action figures to the shelf. How many more books than action figures were on his shelf?",
+        "rationale": "Jerry had 7 books and 3 + 2 = 5 figures on the shelf. Therefore, he has  7 - 5 = 2 more book and action figures. The answer is 2.",
+        "answer": 2.0
+    },
+    {
+        "question": "Faye had 35 packs of pencils each one having 4 pencils. She was placing her pencils into rows with 2 pencils in each row. How many rows could she make?",
+        "rationale": "Faye can make 4 / 2 = 2 rows with one pack. Therefore, she can make in total 35 * 2 = 70 rows. The answer is 70.",
+        "answer": 70.0
+    },
+    {
+        "question": "After a typhoon, 13 trees in Haley's backyard died. If she had grown 15 trees initially How many more trees died in the typhoon than those that survived?",
+        "rationale": "The typhoon 15 - 13 = 2 trees survived. Since 13 died, 13 - 2 = 11 trees died more then survives. The answer is 2.",
+        "answer": 2.0
+    },
+    {
+        "question": "The Razorback t-shirt shop makes $ 78 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 186 t-shirts. If they sold 172 t-shirts during the Arkansas game How much money did they make from selling the t-shirts during the Texas tech game?",
+        "rationale": "They sold 186 - 172 = 14 in the Texas game, they made 78 * 14 = 1092 dollars. The answer is 1092.",
+        "answer": 1092.0
+    },
+    {
+        "question": "Jack received 3 emails in the afternoon, 6 emails in the morning and some more in the evening. If he received a total of 10 emails in the day How many emails did jack receive in the evening?",
+        "rationale": "He received 10 - ( 6 + 3 ) = 1 email in the afternoon. The answer is 1.",
+        "answer": 1.0
+    },
+    {
+        "question": "Jack received 6 emails in the morning, 3 emails in the afternoon and some more in the evening. If he received a total of 10 emails in the day How many emails did Jack receive in the afternoon?",
+        "rationale": "He received 10 - ( 3 + 6 ) = 1 email in the afternoon. The answer is 1.",
+        "answer": 1.0
+    },
+    {
+        "question": "Faye was placing her pencils into rows with 16 pencils in each row. She had 28 packs of pencils each one having 24 pencils. How many rows could she make?",
+        "rationale": "Faye can make 24 / 16 = 3 / 2 rows with one pack. Therefore, she can make in total 28 * 3 / 2 = 42 rows. The answer is 42.",
+        "answer": 42.0
+    },
+    {
+        "question": "There were 13 roses in the vase. Jessica cut some more roses from her flower garden which had a total of 12 roses. There are now 21 roses in the vase. How many roses are left in the garden?",
+        "rationale": "To get 21 roses, Jessica cut 21 - 13 = 8 roses from the garden. Therefore, there are 12 - 8 = 4 roses left. The answer is 4.",
+        "answer": 4.0
+    }
+]
